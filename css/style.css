@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: plum
+}
+
+.titulo {
+    color: black;
+}
+
+.iconogrande {
+    font-size: 50px;
+}
+
+.encabezado__foto {
+    width: 100%;
+}
+
+.header__nav {
+    text-align: center;
+    background-color: pink;
+}
+
+.header__links {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    display: inline;
+}
+
+.header__links a {
+    color: black;
+    text-decoration: none;
+}
+
+.encabezado__titulo {
+    margin-bottom: 15px;
+}
+
+.titulo__nombrejefa {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+.video {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.footer__infofinal {
+    text-align: center;
+    background-color: rgb(255, 67, 217);
+}
+
+.footer__redes {
+    text-align: center;
+    background-color: rgb(255, 67, 217);
+}
+
+.iconogrande {
+    font-size: 200px;
+}
+
+.iconos__card {
+    display: inline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*.iconos {
+    text-align: center;
+    margin: 10px;
+}*/
+
+
+.formulario__uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario__dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mensajemotivador {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: rgb(214, 20, 175);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.acceso__form {
+    display: flex;
+}
+
+.acceso__boton {
+    margin-left: 25px;
+}
+
+.encabezado__titulo {
+    background-image: url(../recursos/foto-titulo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid black;
+}
+
+.encabezado__texto {
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: 'Orelega One';
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+}
+
+.encabezado {
+    background-color: pink;
+}
+
+.infoservicios__explicacionuno {
+    background-color: rgb(173, 226, 240);
+
+}
+
+.infoservicios__explicaciondos {
+    background-color: white
+}
+
+.infoservicios__explicaciontres {
+    background-color: rgb(173, 226, 240)
+}
+
+.iconos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+    padding: 10px;
+}
+
+.quienessomos__titulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(214, 20, 175);
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.quienessomos__infogra {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.quienessomos__contenido {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.quienessomos__foto, .quienessomos__infogra{
+    flex-basis: 50%;
+    
+}
+
+.quienessomos__foto img{
+    max-width: 100%;
+
+}
+
+/*.video{
+    max-width: 100%;
+}*/
+
+.video{
+    text-align: center;
+}
+
+.infoservicios {
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.infoservicios__todosdos {
+    margin: 10px;
+    padding: 10px;
+}
+
+.acceso__clientes {
+    margin: 20x;
+    padding: 20px;
+}
+
+.acceso__siguiente {
+    border-color: rgb(0, 170, 255);
+    border-width: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__boton {
+    margin: 3px;
+    padding: 3px;
+    border-color: rgb(0, 170, 255);
+    border-width: 4px;
+}
+
+/* MQ tablet*/
+@media (max-width:991px) {
+    .iconos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .infoservicios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+}
+
+/* MQ tcelular*/
+@media (max-width:667px) {
+    .iconos {
+        grid-template-columns: 1fr;
+    }
+
+    .infoservicios {
+        grid-template-columns: 1fr;
+    }
+
+    .quienessomos__contenido{
+        flex-direction: column;
+    }
+
+    .formulario__form{
+        flex-direction: column;
+    }
+
+    .acceso__form{
+       flex-direction: column;
+    }
+}
+
+

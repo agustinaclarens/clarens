@@ -9,7 +9,7 @@ body {
 
 .titulo {
     color: black;
-    
+
 }
 
 .iconogrande {
@@ -18,11 +18,13 @@ body {
 
 .encabezado__foto {
     width: 100%;
+
 }
 
 .header__nav {
     text-align: center;
     background-color: pink;
+    
 }
 
 .header__links {
